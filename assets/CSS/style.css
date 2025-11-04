@@ -7,7 +7,7 @@ body {
 
 /* PC表示用スタイル */
 .pc-view {
-  background-color: #f0f8ff;
+  background-color: blue;
   color: #333;
 }
 
@@ -17,7 +17,7 @@ body {
 
 /* スマホ表示用スタイル */
 .sp-view {
-  background-color: #fff0f5;
+  background-color: red;
   color: #444;
 }
 
