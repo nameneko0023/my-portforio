@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 20px;
   text-align: center;
-  background-color: #18a10e; /* PC背景色 */
+  background-color: white; /* PC背景色 */
   color: #333;
 }
 
@@ -12,14 +12,24 @@ h1 {
   font-size: 32px;
 }
 
+main {
+  padding-top: 120px;   /* ヘッダーの高さ分 */
+  padding-bottom: 80px; /* フッターの高さ＋余裕 */
+}
+
 /* スマホ表示用（768px以下） */
 @media screen and (max-width: 768px) {
   body {
-    background-color: #730d2f; /* スマホ背景色 */
+    background-color: white; /* スマホ背景色 */
     color: #444;
   }
 
   h1 {
     font-size: 24px;
   }
+
+  main {
+  padding-top: 100px;   /* ヘッダーの高さ分 */
+  padding-bottom: 80px; /* フッターの高さ＋余裕 */
+}
 }
