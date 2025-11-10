@@ -4,4 +4,33 @@
 @import url(sp_style.css);
 
 /*共通スタイル*/
+.header-row1{
+    display: flex;
+    justify-content: space-between; /* 左右に配置 */
+    align-items: center;            /* 垂直方向中央揃え */
+    padding: 10px 20px;
+    background-color: greenyellow;
+}
 
+.header-left,
+.header-center,
+.header-right {
+    flex: 1; /* 各要素に均等な幅を与える */
+}
+
+.header-center {
+    text-align: center;
+}
+
+.header-left {
+    text-align: left;
+}
+
+.header-right {
+    text-align: right;
+}
+
+.menue-list li {
+    display: inline;
+    margin-right: 20px; /* 間隔を調整 */
+}
