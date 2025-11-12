@@ -12,7 +12,7 @@
 }
 .header-label
 {
-    font-size: 20px;
+    font-size: 16px;
 }
 .header-right
 {
@@ -34,7 +34,6 @@
 {
     padding-top: 180px;
     padding-bottom: 30px;
-    background-color: aqua;
 }
 .page1 img{
     width: auto;
